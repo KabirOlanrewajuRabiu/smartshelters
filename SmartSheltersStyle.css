@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 16px;
+    background-color: rgba(192, 222, 253, 0.8);
+}
+
+
+nav {
+    width: 100%;
+    background-color: rgba(13, 12, 12, 0.9);
+    padding: 10px 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li #active {
+    color: rgb(3, 88, 3);
+    text-decoration: underline;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: rgb(3, 88, 3);
+}
+
+#logo {
+    margin: 70px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#logo a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+#logo a #real{
+    color: rgb(3, 88, 3);
+    font-size: 0.8em;
+}
+
+#hero {
+    height: 700px;
+    background-image: url(Images/digital-marketing-agency-ntwrk-g39p1kDjvSY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+#hero h1 {
+    font-size: 3em;
+    margin: 20px 0px;
+}
+
+#hero h4 {
+    font-size: 1.5em;
+    margin: 20px 0px;
+}
+
+#hero button {
+    font-weight: bold;
+    font-size: 1.2em;
+    background-color: rgb(13, 12, 12);;
+    color: rgb(3, 88, 3);
+    padding: 15px 30px;
+    border: 3px solid rgb(3, 88, 3);
+    border-radius: 7px;
+}
+
+#hero button:hover {
+    color: rgb(13, 12, 12);
+    background-color: rgb(3, 88, 3);
+    border: 3px solid rgb(13, 12, 12);
+}
+
+#footer {
+    width: 100%;
+    background-color: rgba(13, 12, 12, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    color: rgb(3, 88, 3);
+}
+
+#footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer ul li {
+    list-style-type: none;
+}
+
+#footer ul li a {
+    color: rgb(3, 88, 3);
+}
+
