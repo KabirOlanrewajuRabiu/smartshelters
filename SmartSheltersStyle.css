@@ -112,6 +112,21 @@ nav ul li #nav-contact:hover {
     background-color: rgb(13, 12, 12);
 }
 
+#rent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rent-1, #rent-2, #rent-3 {
+    width: 30%;
+}
+
+#rent img {
+    width: 100%;
+}
+
 #footer {
     width: 100%;
     background-color: rgba(13, 12, 12, 0.9);
