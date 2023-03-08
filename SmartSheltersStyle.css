@@ -18,14 +18,29 @@ body {
 
 nav {
     width: 100%;
-    background-color: rgba(13, 12, 12, 0.9);
-    padding: 10px 100px;
+    background-color: rgba(13, 12, 12, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
     position: fixed;
-    top: 0;
-    left: 0;
+}
+
+#logo {
+    width: 20%;
+    text-align: center;
+}
+
+#logo a {
+    text-decoration: none;
+    color: orangered;
+    font-size: 1.5em;
+    font-weight: 900;
+    line-height: 0.2;
 }
 
 nav ul {
+    width: 40%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -39,35 +54,30 @@ nav ul li a {
 }
 
 nav ul li #active {
-    color: rgb(3, 88, 3);
+    color: orangered;
     text-decoration: underline;
 }
 
 nav ul li a:hover {
     text-decoration: underline;
-    color: rgb(3, 88, 3);
+    color: orangered;
 }
 
-#logo {
-    margin: 70px 0px;
-    text-align: center;
-    font-weight: bold;
+nav ul li #nav-contact {
+    background-color:  orangered;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
 }
 
-#logo a {
-    text-decoration: none;
-    color: black;
-    font-size: 1.2em;
-}
-
-#logo a #real{
-    color: rgb(3, 88, 3);
-    font-size: 0.8em;
+nav ul li #nav-contact:hover {
+    background-color:  white;
+    color: orangered;
 }
 
 #hero {
     height: 700px;
-    background-image: url(Images/digital-marketing-agency-ntwrk-g39p1kDjvSY-unsplash.jpg);
+    background-image: url(Images/brandon-griggs-wR11KBaB86U-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -91,17 +101,15 @@ nav ul li a:hover {
 #hero button {
     font-weight: bold;
     font-size: 1.2em;
-    background-color: rgb(13, 12, 12);;
-    color: rgb(3, 88, 3);
+    background-color:  orangered;
     padding: 15px 30px;
-    border: 3px solid rgb(3, 88, 3);
-    border-radius: 7px;
+    border: none;
+    border-radius: 30px;
 }
 
 #hero button:hover {
-    color: rgb(13, 12, 12);
-    background-color: rgb(3, 88, 3);
-    border: 3px solid rgb(13, 12, 12);
+    color: orangered;
+    background-color: rgb(13, 12, 12);
 }
 
 #footer {
@@ -111,7 +119,7 @@ nav ul li a:hover {
     align-items: center;
     justify-content: space-between;
     padding: 20px 30px;
-    color: rgb(3, 88, 3);
+    color: orangered;
 }
 
 #footer ul {
@@ -125,6 +133,6 @@ nav ul li a:hover {
 }
 
 #footer ul li a {
-    color: rgb(3, 88, 3);
+    color: orangered;
 }
 
