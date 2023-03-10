@@ -129,6 +129,7 @@ nav ul li #nav-contact:hover {
 
 #rent {
     text-align: center;
+    line-height: 2rem;
 }
 
 #rent-card {
@@ -282,4 +283,87 @@ nav ul li #nav-contact:hover {
     padding: 20px 30px;
     text-align: center;
     color: orangered;
+}
+
+
+
+
+
+
+
+
+#rent-nav {
+    background: linear-gradient(to right, rgb(13, 12, 12), rgba(52, 48, 48, 0.9))
+}
+
+#rent-hero {
+    width: 100%;
+    text-align: center;
+}
+
+#rent-hero h1 {
+    font-size: 3rem;
+    padding: 110px 50px;
+    color: white;
+    text-align: left;
+    background: linear-gradient(to right, rgb(13, 12, 12), rgba(52, 48, 48, 0.9))
+}
+
+#rent-hero h1 span {
+    color: orangered;
+}
+
+#rent-hero div {
+    padding: 60px 20px;
+}
+
+#rent-hero h2 {
+    font-size: 2rem;
+    padding: 20px 0px;
+}
+
+#rent-hero p {
+    color: rgb(86, 83, 83);
+    padding: 20px 250px;
+    line-height: 2rem;
+}
+
+
+
+
+
+#buy-nav {
+    background: linear-gradient(to right, rgb(13, 12, 12), rgba(52, 48, 48, 0.9))
+}
+
+#buy-hero {
+    width: 100%;
+    text-align: center;
+}
+
+#buy-hero h1 {
+    font-size: 3rem;
+    padding: 110px 50px;
+    color: white;
+    text-align: left;
+    background: linear-gradient(to right, rgb(13, 12, 12), rgba(52, 48, 48, 0.9))
+}
+
+#buy-hero h1 span {
+    color: orangered;
+}
+
+#buy-hero div {
+    padding: 60px 20px;
+}
+
+#buy-hero h2 {
+    font-size: 2rem;
+    padding: 20px 0px;
+}
+
+#buy-hero p {
+    color: rgb(86, 83, 83);
+    padding: 20px 250px;
+    line-height: 2rem;
 }
