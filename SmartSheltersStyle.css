@@ -40,7 +40,7 @@ nav {
 }
 
 nav ul {
-    width: 40%;
+    width: 30%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -279,24 +279,7 @@ nav ul li #nav-contact:hover {
 #footer {
     width: 100%;
     background-color: rgba(13, 12, 12, 0.9);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 20px 30px;
+    text-align: center;
     color: orangered;
 }
-
-#footer ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-#footer ul li {
-    list-style-type: none;
-}
-
-#footer ul li a {
-    color: orangered;
-}
-
