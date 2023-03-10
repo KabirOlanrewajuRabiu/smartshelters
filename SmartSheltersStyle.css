@@ -416,7 +416,7 @@ nav ul li #nav-contact:hover {
     text-align: start;
 }
 
-#contact-text ul li .icon {
+ion-icon {
     margin-right: 5px;
     color: orangered;
     font-size: 1.7rem;
