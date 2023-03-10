@@ -36,7 +36,7 @@ nav {
     color: orangered;
     font-size: 1.5em;
     font-weight: 900;
-    line-height: 0.2;
+    line-height: 0;
 }
 
 nav ul {
@@ -84,8 +84,6 @@ nav ul li #nav-contact:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-bottom: 50px;
-    margin-bottom: 50px;
 }
 
 #hero h1 {
@@ -112,19 +110,168 @@ nav ul li #nav-contact:hover {
     background-color: rgb(13, 12, 12);
 }
 
+#our-properties {
+    width: 100%;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+#our-properties h1 {
+    font-size: 3rem;
+    padding: 20px 0px;
+}
+
+#our-properties p {
+    color: rgb(86, 83, 83);
+    padding: 20px 250px;
+    line-height: 2rem;
+}
+
 #rent {
+    text-align: center;
+}
+
+#rent-card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+.rent-detail {
+    width: 30%;
+    margin: 15px;
+    background-color:white;
+    box-shadow: 10px 10px 10px rgba(99, 33, 8, 0.2), -8px -8px 8px rgba(119, 3, 3, 0.2);
+}
+
+.rent-detail-body img {
+    width: 100%;
+}
+
+.rent-detail-body h4 {
+    padding: 20px;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.rent-detail-body h2 {
+    padding: 20px;
+    font-size: 2rem;
+    color:rgba(12, 12, 220, 0.877);
+    text-align: left;
+}
+
+#rent #rent-card .rent-detail h6 {
+    background-color: rgb(250, 108, 56);
+    padding: 20px;
+    font-size: 0.9rem;
+}
+
+#rent #rent-card .rent-detail h6 span {
+    color: blue;
+}
+
+#rent #rent-card .rent-detail .rent-detail-body p {
+    padding: 20px;
+    color: rgb(250, 108, 56);
+    text-align: left;
+}
+
+#sale {
+    text-align: center;
+}
+
+#sale-card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+.sale-detail {
+    width: 30%;
+    margin: 15px;
+    background-color:white;
+    box-shadow: 10px 10px 10px rgba(99, 33, 8, 0.2), -8px -8px 8px rgba(119, 3, 3, 0.2);
+}
+
+.sale-detail-body img {
+    width: 100%;
+}
+
+.sale-detail-body h4 {
+    padding: 20px;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.sale-detail-body h2 {
+    padding: 20px;
+    font-size: 2rem;
+    color:rgba(12, 12, 220, 0.877);
+    text-align: left;
+}
+
+#sale #sale-card .sale-detail h6 {
+    background-color: rgb(250, 108, 56);
+    padding: 20px;
+    font-size: 0.9rem;
+}
+
+#sale #sale-card .sale-detail h6 span {
+    color: blue;
+}
+
+#sale #sale-card .sale-detail .sale-detail-body p {
+    padding: 20px;
+    color: rgb(250, 108, 56);
+    text-align: left;
+}
+
+#happy-clients {
+    width: 100%;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+#happy-clients h1 {
+    font-size: 3rem;padding-bottom: 20px;
+}
+
+#happy-clients p {
+    padding: 20px 200px;
+    line-height: 2rem;
+}
+
+#happy-clients .clients {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-#rent-1, #rent-2, #rent-3 {
+#happy-clients .client {
+    background-color: aliceblue;
+    margin: 20px;
     width: 30%;
+    box-shadow: 10px 10px 10px rgba(35, 25, 21, 0.2), -8px -8px 8px rgba(23, 21, 21, 0.2);
 }
 
-#rent img {
-    width: 100%;
+#happy-clients .client p {
+    text-align: center;
+    padding: 30px;
+}
+
+#happy-clients .client h4 {
+    text-align: center;
+    padding: 30px;
+    color: orangered;
 }
 
 #footer {
