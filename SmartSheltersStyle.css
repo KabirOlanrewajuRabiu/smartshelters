@@ -191,6 +191,7 @@ nav ul li #nav-contact:hover {
     justify-content: center;
     align-items: center;
     padding: 20px 15px;
+    border-radius: 10px;
 }
 
 .sale-detail {
@@ -259,6 +260,7 @@ nav ul li #nav-contact:hover {
 #happy-clients .client {
     background-color: aliceblue;
     margin: 20px;
+    border-radius: 10px;
     width: 30%;
     box-shadow: 10px 10px 10px rgba(35, 25, 21, 0.2), -8px -8px 8px rgba(23, 21, 21, 0.2);
 }
