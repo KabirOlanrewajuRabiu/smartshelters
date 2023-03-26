@@ -557,7 +557,7 @@ form button:hover {
         background-color: black;
         position: fixed;
         left: -100%;
-        top: 50px;
+        top: 45px;
         gap: 0;
         flex-direction: column;
         width: 40%;
@@ -772,7 +772,7 @@ form button:hover {
         background-color: black;
         position: fixed;
         right: -100%;
-        top: 50px;
+        top: 45px;
         gap: 0;
         flex-direction: column;
         width: 40%;
