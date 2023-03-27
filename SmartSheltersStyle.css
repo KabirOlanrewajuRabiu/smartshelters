@@ -134,68 +134,13 @@ nav {
     line-height: 2rem;
 }
 
-#rent {
+#rent, 
+#sale {
     text-align: center;
     line-height: 2rem;
 }
 
-#rent-card {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 15px;
-}
-
-.rent-detail {
-    width: 30%;
-    margin: 15px;
-    background-color:white;
-    box-shadow: 10px 10px 10px rgba(99, 33, 8, 0.2), -8px -8px 8px rgba(119, 3, 3, 0.2);
-}
-
-.rent-detail-body img {
-    width: 100%;
-    height: 250px;
-}
-
-.rent-detail-body h4 {
-    height: 200px;
-    padding: 20px;
-    font-size: 1.2rem;
-    text-align: left;
-}
-
-.rent-detail-body h2 {
-    height: 200px;
-    padding: 20px;
-    font-size: 2rem;
-    color:rgba(12, 12, 220, 0.877);
-    text-align: left;
-}
-
-.rent-detail h6 {
-    height: 200px;
-    background-color: rgb(250, 108, 56);
-    padding: 20px;
-    font-size: 0.9rem;
-}
-
-.rent-detail h6 span {
-    color: blue;
-}
-
-.rent-detail-body p {
-    padding: 20px;
-    color: rgb(250, 108, 56);
-    text-align: left;
-}
-
-#sale {
-    text-align: center;
-}
-
+#rent-card,
 #sale-card {
     width: 100%;
     display: flex;
@@ -206,6 +151,7 @@ nav {
     border-radius: 10px;
 }
 
+.rent-detail,
 .sale-detail {
     width: 30%;
     margin: 15px;
@@ -213,16 +159,20 @@ nav {
     box-shadow: 10px 10px 10px rgba(99, 33, 8, 0.2), -8px -8px 8px rgba(119, 3, 3, 0.2);
 }
 
+.rent-detail-body img,
 .sale-detail-body img {
     width: 100%;
+    height: 250px;
 }
 
+.rent-detail-body h4,
 .sale-detail-body h4 {
     padding: 20px;
     font-size: 1.2rem;
     text-align: left;
 }
 
+.rent-detail-body h2,
 .sale-detail-body h2 {
     padding: 20px;
     font-size: 2rem;
@@ -230,17 +180,20 @@ nav {
     text-align: left;
 }
 
-#sale #sale-card .sale-detail h6 {
+.rent-detail h6,
+.sale-detail h6 {
     background-color: rgb(250, 108, 56);
     padding: 20px;
     font-size: 0.9rem;
 }
 
-#sale #sale-card .sale-detail h6 span {
+.rent-detail h6 span,
+.sale-detail h6 span {
     color: blue;
 }
 
-#sale #sale-card .sale-detail .sale-detail-body p {
+.rent-detail-body p,
+.sale-detail-body p {
     padding: 20px;
     color: rgb(250, 108, 56);
     text-align: left;
@@ -557,7 +510,7 @@ form button:hover {
         background-color: black;
         position: fixed;
         left: -100%;
-        top: 45px;
+        top: 50px;
         gap: 0;
         flex-direction: column;
         width: 40%;
@@ -591,45 +544,15 @@ form button:hover {
     #our-properties p {
         padding: 20px 50px;
     }
-    
-    #rent {
-        text-align: center;
-        line-height: 2rem;
-    }
 
-    #rent h1 {
+    #rent h1,
+    #sale h1 {
         font-size: 1.5rem;
     }
-    
-    #rent-card {
-        padding: 20px 15px;
-    }
-    
-    .rent-detail {
-        width: 90%;
-        margin: 15px;
-        background-color:white;
-        box-shadow: 10px 10px 10px rgba(99, 33, 8, 0.2), -8px -8px 8px rgba(119, 3, 3, 0.2);
-    }
-    
-    #sale {
-        text-align: center;
-        line-height: 2rem;
-    }
 
-    #rent h1 {
-        font-size: 1.5rem;
-    }
-    
-    #sale-card {
-        padding: 20px 15px;
-    }
-    
+    .rent-detail,
     .sale-detail {
         width: 90%;
-        margin: 15px;
-        background-color:white;
-        box-shadow: 10px 10px 10px rgba(99, 33, 8, 0.2), -8px -8px 8px rgba(119, 3, 3, 0.2);
     }
 
     #happy-clients {
@@ -772,7 +695,7 @@ form button:hover {
         background-color: black;
         position: fixed;
         right: -100%;
-        top: 45px;
+        top: 50px;
         gap: 0;
         flex-direction: column;
         width: 40%;
