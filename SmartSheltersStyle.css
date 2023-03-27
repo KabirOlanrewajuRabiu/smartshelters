@@ -192,6 +192,13 @@ nav {
     color: blue;
 }
 
+#our-properties .rent-detail-body p,
+#our-properties .sale-detail-body p {
+    padding: 20px;
+    color: rgb(250, 108, 56);
+    text-align: left;
+}
+
 .rent-detail-body p,
 .sale-detail-body p {
     padding: 20px;
@@ -510,7 +517,7 @@ form button:hover {
         background-color: black;
         position: fixed;
         left: -100%;
-        top: 50px;
+        top: 60px;
         gap: 0;
         flex-direction: column;
         width: 40%;
@@ -695,7 +702,7 @@ form button:hover {
         background-color: black;
         position: fixed;
         right: -100%;
-        top: 50px;
+        top: 60px;
         gap: 0;
         flex-direction: column;
         width: 40%;
